@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@drawable/item_list_only_bg_selector">
+    <TextView
+        android:id="@+id/tv_item_list_autor"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="@dimen/list_item_height"
+        />
+    <TextView
+        android:id="@+id/tv_item_list_desc"
+        android:layout_toRightOf="@id/tv_item_list_autor"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_height"
+        />
+</RelativeLayout>
