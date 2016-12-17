@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">mvp-demo</string>
+
+
+    <string name="collase">收起</string>
+    <string name="expand">展开</string>
 </resources>
